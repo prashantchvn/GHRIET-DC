@@ -9,7 +9,7 @@ export default class Nav extends Component{
                         <img src="" alt="" width="30" height="24"/>
                         </a>
                         <button id="navbtn navbtn1" className="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span id='navbtn1' className="navbar-toggler-icon"></span>
+                        <i className="fa fa-bars" aria-hidden="true"></i>
                         </button>
                     
                         <div className="justify-content-end collapse navbar-collapse " id="navbarSupportedContent">
