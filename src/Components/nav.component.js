@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
-export default class Nav extends Component{
-    render(){
+import React, { useEffect } from 'react'
+
+const Nav=()=> {
         return(
+
             <div>
-                <nav id="navBar" className="navbar navbar-expand-lg ">
+                <nav className="navbar fixed-top navbar-expand-lg ">
                     <div className="container-fluid" >
                         <a className="navbar-brand" href="#">GHRIET-DC  
                         <img src="" alt="" width="30" height="24"/>
@@ -43,5 +44,6 @@ export default class Nav extends Component{
                     </nav>
             </div>
         )
-    }
+    
 }
+export default Nav;
