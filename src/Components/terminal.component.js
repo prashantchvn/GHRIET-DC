@@ -4,7 +4,7 @@ export default class Terminal extends Component{
     render(){
         return(
             <>
-            <div className="card terminal align-middle shadow p-3 mb-5 bg-body rounded">
+            <div className="card terminal align-middle shadow-lg p-3 mb-5 bg-body rounded">
                 <div className="card-header ">
                 <i className="fa fa-circle red" aria-hidden="true"></i>
                 <i className="fa fa-circle yellow" aria-hidden="true"></i>

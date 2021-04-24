@@ -5,7 +5,7 @@ export default class Nav extends Component{
             <div>
                 <nav id="navBar" className="navbar navbar-expand-lg ">
                     <div className="container-fluid" >
-                        <a className="navbar-brand" href="#">GHRIET-DC
+                        <a className="navbar-brand" href="#">GHRIET-DC  
                         <img src="" alt="" width="30" height="24"/>
                         </a>
                         <button id="navbtn navbtn1" className="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
