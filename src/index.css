@@ -3,10 +3,20 @@
     overflow-x: hidden;
 } */
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
 body{
   text-align: center;
   color:#0D0D0D
 }
+.p1{
+  font-family: 'Ubuntu', sans-serif;
+}
+.p2{
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 20px;
+}
+  
 img.vert-move {
   -webkit-animation: mover 1s infinite  alternate;
   animation: mover 1s infinite  alternate;
@@ -128,6 +138,9 @@ img.vert-move {
 }
 .green{
   color: rgb(58, 141, 65);
+}
+.about{
+  text-align: center;
 }
 @media only screen and (min-width: 690px) {
   .terminal{

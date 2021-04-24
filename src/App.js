@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./Components/nav.component";
 import Header from './Components/header.component';
 import Terminal from "./Components/terminal.component";
+import About from "./Components/about.component";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Nav/>
       <Header/>
       <Terminal/>
+      <About/>
     </div>
   );
 }
