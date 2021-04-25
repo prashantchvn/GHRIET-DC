@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import mainicon from "../img/dev.png";
 import Aos  from 'aos';
 import 'aos/dist/aos.css';
+
 const Header=()=> {
       useEffect(()=>{
         Aos.init({duration:2000});

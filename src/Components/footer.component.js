@@ -4,7 +4,7 @@ const Footer=()=>{
     return(
         <>
             <footer>
-            <div class="container">
+            <div className="container">
                <div className="row gx-5">
                    <div className="footersoc">
                    Follow us: 
