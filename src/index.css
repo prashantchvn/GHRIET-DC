@@ -40,7 +40,7 @@ img.vert-move {
   
   text-align: center;
 }
-.display-6{
+.display-6, .display-5{
   margin: 50px 80px 50px 80px;
   font-family: 'Original Surfer', cursive;
 
@@ -142,6 +142,21 @@ img.vert-move {
 .about{
   text-align: center;
 }
+.white{
+  color: white;
+}
+.under{
+  height: 500px;
+  padding-top: 50px
+}
+.joinbtn{
+  height: 60px;
+  width: 120px;
+}
+.location{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
 @media only screen and (min-width: 690px) {
   .terminal{
     margin-left: 250px;
@@ -156,3 +171,73 @@ img.vert-move {
   }
 
 }  
+
+#link{
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+  color: white;
+}
+#link:hover{
+  padding-top: 60px;
+  top: -5px;
+  transition: all 0.15s;
+}
+
+#devso{
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+#devso:hover{
+  color: gray;
+  top: -5px;
+  transition: all 0.15s;
+}
+.footersoc{
+  word-spacing: 10px;
+
+}
+footer{
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1004%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(84%2c 55%2c 145%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c59 C 57.6%2c81.2 172.8%2c158.2 288%2c170 C 403.2%2c181.8 460.8%2c96.6 576%2c118 C 691.2%2c139.4 748.8%2c275.8 864%2c277 C 979.2%2c278.2 1036.8%2c131.8 1152%2c124 C 1267.2%2c116.2 1382.4%2c215.2 1440%2c238L1440 560L0 560z' fill='rgba(123%2c 81%2c 235%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c441 C 96%2c434 288%2c390.2 480%2c406 C 672%2c421.8 768%2c542.2 960%2c520 C 1152%2c497.8 1344%2c340 1440%2c295L1440 560L0 560z' fill='rgba(119%2c 17%2c 201%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1004'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #e2fa5d;
+}
+
+::selection {
+  color: black;
+  background: #e2fa5d;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.col1{
+  
+}
+

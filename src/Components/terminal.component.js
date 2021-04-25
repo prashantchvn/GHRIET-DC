@@ -11,6 +11,7 @@ const Terminal=()=>  {
             Aos.init({duration:1000});
         },[]);
 
+        
         let terminalText = document.getElementById('typewriter');
 
         let typewriter = new Typewriter(terminalText, {
@@ -22,10 +23,11 @@ const Terminal=()=>  {
         .pauseFor(2500)
         .typeString('Empowering the open-source community. ')
         .start();
+        
 
         return(
             <>
-            <div data-aos="zoom-in" className="card terminal align-middle shadow-lg p-3 mb-5 bg-body rounded ">
+            <div className="card terminal align-middle shadow-lg p-3 mb-5 bg-body rounded "  data-aos="zoom-in">
                 <div className="card-header ">
                 <i className="fa fa-circle red" aria-hidden="true"></i>
                 <i className="fa fa-circle yellow" aria-hidden="true"></i>

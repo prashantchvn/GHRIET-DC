@@ -24,7 +24,7 @@ const Header=()=> {
               </div>
             </div>
           </div>
-          <p className="display-6">Skill is only developed by hours and <b>hours</b> of work</p>
+          <p className="display-6">Skill is only developed by hours and <b className="green">hours</b> of work</p>
           
         </div>
       </div>
